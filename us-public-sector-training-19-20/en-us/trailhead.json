@@ -1,0 +1,185 @@
+{
+  "modules": [
+    {
+      "_id": "us-public-sector-training-19-20",
+      "icon_url": "https://developer.salesforce.com/resource/images/trailhead/badges/modules/trailhead_module_us-public-sector-training-19-20.png",
+      "description_html": "Learn about and attest to 2019-2020 security policies for US public sector data.",
+      "title": "US Public Sector Data Security Training 2019-2020",
+      "langLocale": "en.us",
+      "org": "00D000000000062",
+      "retired": false,
+      "trail_ids": [
+        "trailhead.trail.us-public-sector-data-security-training-2019-2020.en.us.192"
+      ],
+      "tags": [
+        {
+          "name": "general",
+          "value": "General"
+        }
+      ],
+      "roles": [
+        {
+          "name": "salesforce",
+          "value": "Salesforce Employee"
+        }
+      ],
+      "level": "beginner",
+      "products": [
+        {
+          "name": "general",
+          "value": "General"
+        }
+      ],
+      "success_html": "Woo hoo! You've completed the Module!",
+      "badge_title": "US Public Sector Data Security Training 2019–2020",
+      "canExportBackpack": false,
+      "units": [
+        {
+          "_id": "get-to-know-the-us-public-sector",
+          "title": "Get to Know the US Public Sector",
+          "langLocale": "en.us",
+          "retired": false,
+          "org": "00D000000000062",
+          "tags": [
+            {
+              "name": "general",
+              "value": "General",
+              "points": 100
+            }
+          ],
+          "roles": [
+            {
+              "name": "salesforce",
+              "value": "Salesforce Employee"
+            }
+          ],
+          "level": "beginner",
+          "products": [
+            {
+              "name": "general",
+              "value": "General"
+            }
+          ],
+          "content_href": "us-public-sector-training-19-20/get-to-know-the-us-public-sector.html",
+          "challenge-time": 5
+        },
+        {
+          "_id": "identify-insider-threats",
+          "title": "Identify Insider Threats",
+          "langLocale": "en.us",
+          "retired": false,
+          "tags": [
+            {
+              "name": "general",
+              "value": "General",
+              "points": 100
+            }
+          ],
+          "roles": [
+            {
+              "name": "salesforce",
+              "value": "Salesforce Employee"
+            }
+          ],
+          "level": "beginner",
+          "products": [
+            {
+              "name": "general",
+              "value": "General"
+            }
+          ],
+          "content_href": "us-public-sector-training-19-20/identify-insider-threats.html",
+          "challenge-time": 10
+        },
+        {
+          "_id": "manage-and-protect-us-public-sector-data",
+          "title": "Manage and Protect US Public Sector Data",
+          "langLocale": "en.us",
+          "retired": false,
+          "org": "00D000000000062",
+          "tags": [
+            {
+              "name": "general",
+              "value": "General",
+              "points": 100
+            }
+          ],
+          "roles": [
+            {
+              "name": "salesforce",
+              "value": "Salesforce Employee"
+            }
+          ],
+          "level": "beginner",
+          "products": [
+            {
+              "name": "general",
+              "value": "General"
+            }
+          ],
+          "content_href": "us-public-sector-training-19-20/manage-and-protect-us-public-sector-data.html",
+          "challenge-time": 15
+        },
+        {
+          "_id": "maintain-physical-access-security",
+          "title": "Maintain Physical Access Security",
+          "langLocale": "en.us",
+          "retired": false,
+          "org": "00D000000000062",
+          "tags": [
+            {
+              "name": "general",
+              "value": "General",
+              "points": 100
+            }
+          ],
+          "roles": [
+            {
+              "name": "salesforce",
+              "value": "Salesforce Employee"
+            }
+          ],
+          "level": "beginner",
+          "products": [
+            {
+              "name": "general",
+              "value": "General"
+            }
+          ],
+          "content_href": "us-public-sector-training-19-20/maintain-physical-access-security.html",
+          "challenge-time": 10
+        },
+        {
+          "_id": "attest-to-the-us-public-sector-training-19-20",
+          "title": "Attest to the US Public Sector Data Security Training 2019-2020",
+          "langLocale": "en.us",
+          "retired": false,
+          "org": "00D000000000062",
+          "tags": [
+            {
+              "name": "general",
+              "value": "General",
+              "points": 100
+            }
+          ],
+          "roles": [
+            {
+              "name": "salesforce",
+              "value": "Salesforce Employee"
+            }
+          ],
+          "level": "beginner",
+          "products": [
+            {
+              "name": "general",
+              "value": "General"
+            }
+          ],
+          "content_href": "us-public-sector-training-19-20/attest-to-the-us-public-sector-training-19-20.html",
+          "challenge-time": 5
+        }
+      ]
+    }
+  ],
+  "trailmakerVersion": ""
+}
