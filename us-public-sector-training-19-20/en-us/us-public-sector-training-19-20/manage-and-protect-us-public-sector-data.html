@@ -1,0 +1,147 @@
+<h2 class="helpHead2">
+  <div class="ph">
+    <a href="topic-title"> </a>
+    Learning Objectives
+  </div>
+</h2>
+<p>After completing this unit, you’ll be able to:</p>
+<ul>
+  <li>Describe how to protect customer data for the US public sector.</li>
+  <li>List the steps to take when customer data has been compromised.</li>
+  <li>List the risks resulting in misuse of customer data.</li>
+</ul>
+<h2 class="helpHead2">
+  <div class="ph">
+    <a href="topic-title"> </a>
+    Salesforce Government Cloud Access Controls
+  </div>
+</h2>
+<p>Salesforce has implemented strong, multitiered, multifactor authentication to access production environments. The
+  <a href="https://salesforce-m7.a03a.metricstream.com/ui/infocenter/DMX-MS_DMX_POLICY_PORTAL" target="_blank">Information Security Standards</a> contains further information on requirements around production access controls and administrative access. If you’re an admin with elevated access rights or other similar accounts used to perform privileged actions,
+  remember not to use these accounts to log in to workstations or to perform nonprivileged actions. If your workstation is compromised and a hacker gains entry to your machine, an attacker can collect your credentials and start using them to wreak havoc
+  on our systems and networks. </p>
+<p>We take production access seriously at Salesforce, especially in Salesforce Government Cloud. If you need access to production environments or if you have questions about access controls, you can always contact the System Security team at
+  <a target="_blank">gia-admins@salesforce.com</a> for the Salesforce Government Cloud or to
+  <a target="_blank">security@mulesoft.com</a> for MuleSoft Government Cloud.</p>
+<p>We have a
+  <a href="https://salesforce-m7.a03a.metricstream.com/ui/js/src/modules/DMS/widgets/templates/docViewer.html?attachmentUrl=SFSS025NetworkProtection.html%23ms_attach_delimiter%23286834&amp;attachmentId=286834&amp;auditId=104926&amp;copyType=VIEW&amp;viewSource=portal" target="_blank">Network Protection Standard</a> that applies to all Salesforce employees, interns, vendors, contingent staff, partners, and any other individuals who maintain access to Salesforce systems. This standard covers requirements to secure Salesforce networks
+  from unauthorized access, denial-of-service attacks, and other threats that impact the confidentiality, integrity, and availability of network services, systems, data, and applications.</p>
+<p><strong>Data Backup and Storage</strong></p>
+<p>Per the company’s
+  <a href="https://salesforce-m7.a03a.metricstream.com/ui/infocenter/DMX-MS_DMX_POLICY_PORTAL" target="_blank">Information Security Standards</a>, Salesforce business and customer information must be backed up at a frequency consistent with recovery time and recovery point objectives. Backup information and media must be protected at all storage locations and
+  be sanitized, or destroyed, or both when no longer required. For additional information, review the
+  <a href="https://salesforce-m7.a03a.metricstream.com/ui/js/src/modules/DMS/widgets/templates/docViewer.html?attachmentUrl=SFSS007BackupandRestore.html%23ms_attach_delimiter%23287970&amp;attachmentId=287970&amp;auditId=104941&amp;copyType=VIEW&amp;viewSource=portal" target="_blank">Backup and Restore Standard</a>.</p>
+<p><strong>Media Protection</strong></p>
+<p>A limited number of Salesforce employees have access to media that contains customer data. These employees are the data center engineers located in Salesforce’s production colocation data centers. Salesforce has developed a
+  <a href="https://salesforce-m7.a03a.metricstream.com/ui/js/src/modules/DMS/widgets/templates/docViewer.html?attachmentUrl=SFSS056DeviceandMediaHandling.html%23ms_attach_delimiter%23247974&amp;attachmentId=247974&amp;auditId=104519&amp;copyType=VIEW&amp;viewSource=portal" target="_blank">Device and Media Handling Standard</a> that describes how to properly handle backup tapes (storing, disposing, using), managing hard drives and digital media, failed media handling, media destruction, and inventory processes. We won’t go into too much
+  detail here, but if you’re in a position with access to media containing US public sector customer data, it’s critical that you review the standard and familiarize yourself with these processes. </p>
+<p><strong>Secure Data Handling</strong></p>
+<p>To make sure you handle data in a way that complies with Salesforce and government customer requirements, always keep sensitive or customer data in production and approved secure environments. Production servers provide greater security than your laptop,
+  for example. Here are some additional steps you can take to keep your data secure.</p>
+<ul>
+  <li>Avoid accessing customer data unless it’s required for your job.</li>
+  <li>Minimize the amount and type of data downloaded to your computer and never store customer data on your laptop.</li>
+  <li>Do not export any information from a Salesforce Government Cloud environment whose disclosure can impact the confidentiality, integrity, or availability of the environment.</li>
+  <li>Do not use email to send information that is not publicly available.</li>
+  <li>Use only Salesforce-approved third-party storage sites.</li>
+  <li>Do not store information on USBs or external hard drives.</li>
+</ul>
+<p>
+  <img src="./images/ck-37-hl-57-z-00030-za-20-s-0-deer-1.png" width="330" height="247" class="image image-block image-center" alt="A no sign surrounding a USB device" />
+</p>
+<p><strong>Consider this: </strong>If attackers breach our perimeter and access your computer, they can easily get their hands on sensitive source code or data at your workstation. As a result, try to limit the amount of source code, sensitive data,
+  or credentials on your computer. If you do need this type of data on your machine, delete it as soon as possible to minimize the risk. </p>
+<h2 class="helpHead2">
+  <div class="ph">
+    <a href="topic-title"> </a>
+    Information Access
+  </div>
+</h2>
+<p><strong>Principle of Least Privilege</strong></p>
+<p>We follow the principle of least privilege. This means provisioning access with as few permissions as possible while still providing sufficient access to perform the job. Keep the principle of least privilege in mind whenever you determine access levels
+  or share information with others. This principle also applies to setting permissions for documentation, code, or system configurations. </p>
+<p>Similarly, we mitigate risk using
+  <a href="https://salesforce-m7.a03a.metricstream.com/ui/js/src/modules/DMS/widgets/templates/docViewer.html?attachmentUrl=SFSS042SegregationofDuties.html%23ms_attach_delimiter%23189441&amp;attachmentId=189441&amp;auditId=101825&amp;copyType=VIEW&amp;viewSource=portal" target="_blank">segregation of duties</a>. We separate the tasks and associated privileges for a specific security process among multiple people. </p>
+<p>
+  <img src="./images/ck-37-hl-58100040-za-27-ljb-7-ivq.png" width="389" height="291" class="image image-block image-center" alt="An employee is holding a lock to accounts that are in the cloud" />
+</p>
+<p><strong>Mission Critical Data Access</strong></p>
+<p>Mission critical—that sounds important, doesn’t it? That’s because it is! This data is defined as being critical to the survivability and success of Salesforce. It’s no surprise, then, that there are controls in place to protect this type of data. These
+  controls are outlined in the
+  <a href="https://salesforce-m7.a03a.metricstream.com/ui/js/src/modules/DMS/widgets/templates/docViewer.html?attachmentUrl=SFSS019DataClassification.html%23ms_attach_delimiter%23186093&amp;attachmentId=186093&amp;auditId=101787&amp;copyType=VIEW&amp;viewSource=portal" target="_blank">Data Classification Standard</a>. The last thing we want is for a cybercriminal to gain unauthorized access to mission critical data, including government and customer information! </p>
+<p>Because of the importance of safeguarding this information, only a small defined subset of Salesforce employees are allowed to use mission critical data. If someone plans to release the data externally, the external party must sign a nondisclosure agreement
+  (NDA), an executive vice president must sign off on releasing the data, and only authorized recipients are allowed to access the data. Once released, you must contact Security for guidance on how to protect the data. </p>
+<p><strong>Encryption of Customer Data</strong></p>
+<p>The
+  <a href="https://salesforce-m7.a03a.metricstream.com/ui/infocenter/DMX-MS_DMX_POLICY_PORTAL" target="_blank">Information Security Standards</a> has documented standards for encryption at Salesforce. Proprietary encryption algorithms aren’t allowed, unless reviewed by qualified experts outside of the vendor in question and approved by applicable Salesforce
+  personnel.</p>
+<p>Customer connections to the Salesforce service must be offered via the encryption standards outlined in the
+  <a href="https://salesforce-m7.a03a.metricstream.com/ui/infocenter/DMX-MS_DMX_POLICY_PORTAL" target="_blank">Information Security Standards</a> using certificates from a trusted authority. All non-console administrative access to production systems must be encrypted.</p>
+<h2 class="helpHead2">
+  <div class="ph">
+    <a href="topic-title"> </a>
+    Data Protection
+  </div>
+</h2>
+<p><strong>Protection from Viruses, Worms, and Other Malicious Code</strong></p>
+<p>Salesforce has a well-defined standard for production antivirus protections that we all follow. The TMP Systems Security engineering team implement and manage the antivirus capabilities for the US public sector. It’s critical that they know production
+  antivirus procedures, which cover regular scans and definition updates. </p>
+<p>
+  <img src="./images/ck-37-hl-58300050-za-231-foeyb-0.png" width="383" height="287" class="image image-block image-center" alt="A worm is crawling onto a computer" />
+</p>
+<p>However, even if you aren’t directly responsible for managing production antivirus mechanisms, you still play a direct role in protecting Salesforce from malicious code. All end-user workstations must have malicious software detection and remediation
+  capabilities and host-based firewalls installed. If you have any concerns about whether your workstation is configured appropriately, contact
+  <a href="https://concierge.it.salesforce.com/articles/en_US/Supportforce_Article/Where-are-the-IT-Techforce-Bars-located" target="_blank">IT via Concierge</a>.</p>
+<p><strong>Password Hygiene</strong></p>
+<p>Password sharing and password reuse pose serious security risks, especially with your Salesforce passwords. When you share passwords, you lose access control over your account. And if you reuse your password for other services, your Salesforce account
+  can be compromised if those services are hacked. To make your life easier,
+  <a href="https://concierge.it.salesforce.com/articles/en_US/Supportforce_Article/LastPass" target="_blank">Salesforce provides employees with a free LastPass account</a>. LastPass makes it easy to store lots of different passwords and keep all your accounts secure. More information on LastPass can be found
+  <a href="https://confluence.internal.salesforce.com/pages/viewpage.action?spaceKey=SECURITY&amp;title=Lastpass+FAQ%27s" target="_blank">here</a> (VPN required).</p>
+<p>
+  <img src="./images/ck-37-hl-58400060-za-2-dbrt-0-npj.png" width="382" height="286" class="image image-block image-center" alt="An employee holding up a computer with the LastPass logo on it" />
+</p>
+<p><strong>Don’t Get Fooled by Phishing </strong></p>
+<p>One of the most common ways for attackers to breach a system is with phishing emails. It’s easy to be tricked. Every year, we get audit findings that show someone clicked on a phishing email. We’ve seen these before—it’s those emails that bait us into
+  downloading a malicious file or click a link that leads to a malicious website to enter in our credentials. If the recipient takes the bait and downloads the malicious file, the malware exploits vulnerabilities on the local machine, applications, or
+  web browsers. Common attack vectors include vulnerabilities in Flash and Java, but that’s not the only place. </p>
+<p>Malicious emails are becoming more focused and more difficult to tell apart from legitimate emails. They can even be customized using your name or other key information. When attackers do research on a target (known as profiling), they can use publicly
+  available information to target you in a cyberattack. Knowing this, it’s important to be mindful of what you say and where you say it. It’s a good idea to avoid having sensitive work-related conversations in public spaces, on social media platforms,
+  or when you travel. You never know who is listening or shoulder-snooping.</p>
+<p>
+  <img alt="A man is talking to Carol about a Salesforce-related topic and there is a man with a red vest eavesdropping" src="./images/ck-37-hl-58700070-za-29-mi-92-g-7-o.png" width="487" height="364" class="image image-block image-center" />
+</p>
+<p>Here are some ways to make sure that you don’t get hooked by phishing emails.</p>
+<ul>
+  <li>Avoid posting detailed information about your job on searchable Internet sites, such as your personal Facebook account or LinkedIn. You may wish to use an email account created specifically for receiving email from those sites, so that potential phishing
+    emails don’t go to your company account.</li>
+  <li>Don’t reply to spam or suspicious-looking email. That unsubscribe link or reply may guarantee that you continue to get spam (you’ve verified your address as valid) and can lead to a malware download.</li>
+  <li>Don’t click links or open attachments in suspicious emails or chat messages.</li>
+</ul>
+<p>Phishing emails are one of the most effective and dangerous hacker tools that can be the first step of complete network compromise. But if you pay close enough attention, they can almost always be spotted. Once you do, you can forward these to
+  <a target="_blank">security_gov@salesforce.com</a>.</p>
+<p><strong>Account Maintenance</strong></p>
+<p>As an employee with access to sensitive systems, it is especially important for you to keep your account active. Inactive accounts, like empty houses, are particularly vulnerable to hackers, who look for the easiest and quietest way into a system. Compliance
+  standards require Salesforce to regularly clean up stale accounts. If your account gets stale, it will be deactivated. Help keep our systems secure and save time for system administrators by keeping your account active!</p>
+<p><strong>Customer Data Handling</strong></p>
+<p>What are the general risks to an individual and the organization if data covered under our privacy requirements is misused? Depending on the type of information breached, a victim can suffer social, economic, or physical harm. If an identity thief gets
+  hold of the compromised information, the person can suffer from a loss of money, damaged credit, compromised medical records, threats, or harassment.</p>
+<p>If data is misused, organizations can suffer financially. If a loss of data is deemed illegal, the organization or its staff can be subject to criminal or civil penalties. They can also be required to agree to receive close government scrutiny and oversight.
+  In the end, organizations can put their public reputation at risk and shatter public confidence. One recent example is the
+  <a href="https://www.consumer.ftc.gov/blog/2017/09/equifax-data-breach-what-do" target="_blank">Equifax breach</a> that exposed sensitive personal information of millions of consumers.</p>
+<p>Not protecting or misusing customer data carries the potential for criminal and/or civil liability (including fines and imprisonment) for individuals who unlawfully access or disclose Customer Data including personally identifiable information, protected
+  health information, criminal justice information, and federal taxpayer information. Internal Revenue Code Sections 7431, 7213, and 7213A codify penalty provisions for the unauthorized disclosure or inspection of tax returns and return information, which
+  can lead to fines and imprisonment. Disclosure awareness restrictions and penalties apply even after employment with Salesforce has ended. Exhibits 4 and 5 in
+  <a href="https://www.irs.gov/pub/irs-pdf/p1075.pdf" target="_blank">IRS 1075</a> detail the penalties. It is your responsibility as an employee with access to the Salesforce Government Cloud to review and understand these penalty provisions. </p>
+<h2 class="helpHead2">
+  <div class="ph">
+    <a href="topic-title"> </a>
+    Resources
+  </div>
+</h2>
+<ul>
+  <li> <a href="https://salesforce-m7.a03a.metricstream.com/metricstream/api/7.0/dmx/viewDocument/getviewdocinfo?auditid=117670&amp;pid=&amp;docId=&amp;type=LATEST&amp;targetUrl=self" target="_blank"><em>Security Standard:</em> Device and Media Handling Standard</a> </li>
+  <li>
+    <a href="https://salesforce-m7.a03a.metricstream.com/ui/js/src/modules/DMS/widgets/templates/docViewer.html?attachmentUrl=SFSS102AccessingCustomerData.html%23ms_attach_delimiter%23231462&amp;attachmentId=231462&amp;auditId=104297&amp;copyType=VIEW&amp;viewSource=portal" target="_blank"><em>Security Standard:</em> Accessing Customer Data Standard</a>
+  </li>
+  <li> <a href="https://www.irs.gov/pub/irs-pdf/p1075.pdf" target="_blank"><em>PDF: </em>Publication 1075 Tax Information Security Guidelines</a> </li>
+</ul>
